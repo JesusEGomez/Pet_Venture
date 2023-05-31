@@ -1,11 +1,15 @@
-import Image from 'next/image'
-import styles from '../Home/home.module.css'
+
+//import styles from '../Home/home.module.css'
 import {NextPage} from "next"
+import NavBar from '../NavBar/navbar'
 
 const Home: NextPage = () => {
   return (
-  <div className={styles.main}>
-    <h1>Home</h1>
+  <div>
+    <div>
+      <NavBar/>
+    </div>
+    <h1>Por encima el NavBar "aca arrancaria el home"</h1>
   </div>
   )
 }
