@@ -1,0 +1,94 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "descripcion": "Cama para perros suave y acolchada",
+            "tamaño": "Mediano",
+            "nombre": "Cama Comfort",
+            "precio": 29.99,
+            "marca": "PetCozy",
+            "categoria": "Camas"
+        },
+        {
+            "id": 2,
+            "descripcion": "Juguete interactivo para gatos con plumas",
+            "tamaño": "Pequeño",
+            "nombre": "Varita de Plumas",
+            "precio": 9.99,
+            "marca": "PurrfectPlay",
+            "categoria": "Juguetes"
+        },
+        {
+            "id": 3,
+            "descripcion": "Correa ajustable para perros",
+            "tamaño": "Grande",
+            "nombre": "Correa Freedom",
+            "precio": 19.99,
+            "marca": "PawsomeGear",
+            "categoria": "Correas"
+        },
+        {
+            "id": 4,
+            "descripcion": "Juguete masticable para perros de razas grandes",
+            "tamaño": "Grande",
+            "nombre": "Hueso Duradero",
+            "precio": 12.99,
+            "marca": "ToughChew",
+            "categoria": "Juguetes"
+        },
+        {
+            "id": 5,
+            "descripcion": "Alimento seco para gatos adultos",
+            "tamaño": "1.5 kg",
+            "nombre": "Croquetas NutriCat",
+            "precio": 15.99,
+            "marca": "MeowMeow",
+            "categoria": "Alimentos"
+        },
+        {
+            "id": 6,
+            "descripcion": "Arenero autolimpiable para gatos",
+            "tamaño": "Mediano",
+            "nombre": "SmartScoop",
+            "precio": 59.99,
+            "marca": "CleanKitty",
+            "categoria": "Areneros"
+        },
+        {
+            "id": 7,
+            "descripcion": "Chaleco salvavidas para perros",
+            "tamaño": "Pequeño",
+            "nombre": "FloatyPup",
+            "precio": 34.99,
+            "marca": "WaterWoof",
+            "categoria": "Accesorios"
+        },
+        {
+            "id": 8,
+            "descripcion": "Cepillo de pelo para gatos de pelo largo",
+            "tamaño": "Pequeño",
+            "nombre": "GroomingPro",
+            "precio": 9.99,
+            "marca": "FelineCare",
+            "categoria": "Cuidado e Higiene"
+        },
+        {
+            "id": 9,
+            "descripcion": "Juguete dispensador de premios para perros",
+            "tamaño": "Mediano",
+            "nombre": "IQ Treat Ball",
+            "precio": 14.99,
+            "marca": "PawsIQ",
+            "categoria": "Juguetes"
+        },
+        {
+            "id": 10,
+            "descripcion": "Caja de arena cubierta para gatos",
+            "tamaño": "Grande",
+            "nombre": "CozyCatBox",
+            "precio": 49.99,
+            "marca": "KittyHaven",
+            "categoria": "Cuidado e Higiene"
+        }
+    ]
+}
