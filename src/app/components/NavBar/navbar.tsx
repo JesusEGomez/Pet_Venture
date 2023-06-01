@@ -1,42 +1,42 @@
 import { NextPage } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
-import SearchBar from '../SearchBar/searchbar';
+import { Navbar, Text, Button, Input, Dropdown } from "@nextui-org/react";
+import PetVentureLogo from "../../../../public/img/PetVentureLogo.svg"
+import { SearchIcon } from "../Utils/searchbutton";
 
 const NavBar: NextPage = () => {
   return (
-    <div className="flex items-center justify-between bg-white px-6 py-4 fixed top-0 left-0 w-full z-10">
-      <img src="/img/Logo.png" className="w-60 h-24" alt="PetVenture Logo" />
-      <SearchBar />
-<ul className="flex space-x-6">
-  <li className="flex items-center">
-    <Link href="/nosotros" passHref>
-      <p className="text-gray-800 font-semibold hover:text-gray-600 cursor-pointer">Nosotros</p>
-    </Link>
-  </li>
-  <li className="flex items-center">
-    <Link href="/adopta" passHref>
-      <p className="text-gray-800 font-semibold hover:text-gray-600 cursor-pointer">Adopta</p>
-    </Link>
-  </li>
-  <li className="flex items-center">
-    <Link href="/tienda" passHref>
-      <p className="text-gray-800 font-semibold hover:text-gray-600 cursor-pointer">Tienda</p>
-    </Link>
-  </li>
-  <li className="flex items-center">
-    <Link href="/contacto" passHref>
-      <p className="text-gray-800 font-semibold hover:text-gray-600 cursor-pointer">Contacto</p>
-    </Link>
-  </li>
-  <li className="flex items-center">
-    <Link href="/registro" passHref>
-      <p className="text-gray-800 font-semibold hover:text-gray-600 cursor-pointer">Ingresa/Registrate</p>
-    </Link>
-  </li>
-</ul>
-
-    </div>
+    <Navbar isBordered >
+    <Navbar.Brand>
+      <Image
+        width={360}
+        height={70}
+        priority
+        src={PetVentureLogo}
+        alt="Nuestro logo!"
+      />
+    </Navbar.Brand>
+    <Input contentRight={ <SearchIcon initalValue="Buscar" fill="var(--nextui-colors-accents6)" size={16} />}/>
+    <Navbar.Content hideIn="xs">
+      <Navbar.Link href="#">Nosotros</Navbar.Link>
+      <Navbar.Link href="#">Adopta</Navbar.Link>
+      <Navbar.Link href="#">Tienda</Navbar.Link>
+      <Navbar.Link href="#">Contacto</Navbar.Link>
+    </Navbar.Content>            
+    <Navbar.Content>
+          <Navbar.Link color="inherit" href="#">
+            Ingresa
+          </Navbar.Link>
+          <Navbar.Item>
+            <Button auto flat as={Link} href="#">
+              Registrate
+            </Button>
+          </Navbar.Item>
+        </Navbar.Content>
+</Navbar>
   );
 };
+
 
 export default NavBar;
