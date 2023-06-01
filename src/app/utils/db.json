@@ -1,5 +1,4 @@
-{
-    "productos": [
+[
         {
             "id": 1,
             "descripcion": "Cama para perros suave y acolchada",
@@ -91,4 +90,3 @@
             "categoria": "Cuidado e Higiene"
         }
     ]
-}
